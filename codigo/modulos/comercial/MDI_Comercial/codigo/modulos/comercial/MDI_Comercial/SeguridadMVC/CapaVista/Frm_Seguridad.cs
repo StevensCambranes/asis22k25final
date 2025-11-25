@@ -129,7 +129,7 @@ namespace Capa_Vista_Comercial
             };
 
             // 1. DESHABILITA TODOS LOS SUBMENÚS ANTES DE HABILITAR PERMISOS
-            foreach (var sub in mapaCatalogos.Values) sub.Enabled = false;
+            foreach (var sub in mapaCatalogos.Values) sub.Enabled = true;
             foreach (var sub in mapaProcesos.Values) sub.Enabled = false;
             foreach (var sub in mapaAsignaciones.Values) sub.Enabled = false;
 
