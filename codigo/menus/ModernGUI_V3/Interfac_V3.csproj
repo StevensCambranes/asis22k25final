@@ -49,6 +49,12 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Capa_Vista_Comercial">
+      <HintPath>..\..\modulos\comercial\MDI_Comercial\codigo\modulos\comercial\MDI_Comercial\SeguridadMVC\CapaVista\bin\Debug\Capa_Vista_Comercial.dll</HintPath>
+    </Reference>
+    <Reference Include="Capa_Vista_Seguridad">
+      <HintPath>..\..\modulos\comercial\MDI_Comercial\codigo\componentes\seguridad\SeguridadMVC\SeguridadMVC\CapaVista\bin\Debug\Capa_Vista_Seguridad.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
