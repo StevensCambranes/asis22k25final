@@ -36,9 +36,9 @@ namespace Interfac_V3
             this.panelLogo = new System.Windows.Forms.Panel();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panelContenedor = new System.Windows.Forms.Panel();
+            this.btnPropio = new System.Windows.Forms.Button();
             this.btnSalir = new System.Windows.Forms.Button();
             this.btnSeguridad = new System.Windows.Forms.Button();
-            this.btnPropio = new System.Windows.Forms.Button();
             this.panelBarraSuperior.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.btnCerrar)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnMinimizar)).BeginInit();
@@ -111,6 +111,18 @@ namespace Interfac_V3
             this.panelContenedor.Size = new System.Drawing.Size(279, 327);
             this.panelContenedor.TabIndex = 2;
             // 
+            // btnPropio
+            // 
+            this.btnPropio.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnPropio.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnPropio.Location = new System.Drawing.Point(0, 50);
+            this.btnPropio.Name = "btnPropio";
+            this.btnPropio.Size = new System.Drawing.Size(279, 50);
+            this.btnPropio.TabIndex = 2;
+            this.btnPropio.Text = "Modulo Comercial";
+            this.btnPropio.UseVisualStyleBackColor = true;
+            this.btnPropio.Click += new System.EventHandler(this.btnPropio_Click);
+            // 
             // btnSalir
             // 
             this.btnSalir.Dock = System.Windows.Forms.DockStyle.Bottom;
@@ -137,18 +149,6 @@ namespace Interfac_V3
             this.btnSeguridad.UseVisualStyleBackColor = true;
             this.btnSeguridad.Click += new System.EventHandler(this.btnSeguridad_Click);
             // 
-            // btnPropio
-            // 
-            this.btnPropio.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btnPropio.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnPropio.Location = new System.Drawing.Point(0, 50);
-            this.btnPropio.Name = "btnPropio";
-            this.btnPropio.Size = new System.Drawing.Size(279, 50);
-            this.btnPropio.TabIndex = 2;
-            this.btnPropio.Text = "Modulo Propio";
-            this.btnPropio.UseVisualStyleBackColor = true;
-            this.btnPropio.Click += new System.EventHandler(this.btnPropio_Click);
-            // 
             // FormModulos
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -159,6 +159,7 @@ namespace Interfac_V3
             this.Controls.Add(this.panelBarraSuperior);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "FormModulos";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FormModulos";
             this.Load += new System.EventHandler(this.FormModulos_Load);
             this.panelBarraSuperior.ResumeLayout(false);
