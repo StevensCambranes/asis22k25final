@@ -29,20 +29,26 @@ namespace Capa_Vista_Comercial
             };
 
             string[] columnas = {
-                    "tbl_perfil",
-                    "Pk_Id_Perfil",
-                    "Cmp_Puesto_Perfil",
-                    "Cmp_Descripcion_Perfil",
-                    "Cmp_Estado_Perfil",
-                    "Cmp_Tipo_Perfil"
+                    "tbl_paciente",
+                    "pk_idPaciente",
+                    "nombrePaciente",
+                    "apellidoPaciente",
+                    "fechaNacimientoPaciente",
+                    "sexoPaciente",
+                    "direccionPaciente",
+                    "telefonoPaciente",
+                    "estadoPaciente"
                 };
 
             string[] sEtiquetas = {
-                    "Perfil",
-                    "Puesto",
-                    "Descripcion Perfil",
-                    "Estado",
-                    "Tipo Perfil"
+                    "ID Paciente",
+                    "Nombre",
+                    "Apellido",
+                    "Fecha Nacimiento",
+                    "Sexo Paciente",
+                    "Direcion Paciente",
+                    "Tel Paciente",
+                    "Estado Paciente"
                 };
 
 
